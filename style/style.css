@@ -1,0 +1,30 @@
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 992px){
+    .container {
+      margin-top:88px;
+  }
+
+  }
+
+a {
+  text-decoration: none;
+}
+
+#results-table {
+  margin-bottom: 50px;
+}
+
+.redbackground {
+  background-color: red;
+}
+
+.selected {
+  background-color: #FCE8B2;
+}

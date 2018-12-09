@@ -1,0 +1,31 @@
+.main-container {
+  margin-top: 100px;
+}
+
+.jumbotron {
+  border-radius: 15px;
+}
+
+h2 {
+  border-bottom: 2px solid #E9ECEF;
+  padding-bottom: 7px;
+}
+
+body {
+  padding-bottom: 50px;
+}
+
+img {
+  height: 191.04px;
+}
+
+.col-lg-4 {
+  margin-top: 30px;
+}
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  height: 395px;
+  text-decoration: none;
+  color: #212529;
+}
