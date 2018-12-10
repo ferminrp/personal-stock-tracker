@@ -21,10 +21,27 @@ a {
   margin-bottom: 50px;
 }
 
-.redbackground {
-  background-color: red;
-}
-
 .selected {
   background-color: #FCE8B2;
+}
+
+#indexes {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.index {
+  background-color: #c9d0db;
+  border-radius: 10px;
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+}
+
+h6 {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.index p {
+  font-weight: bold;
 }

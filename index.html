@@ -16,36 +16,55 @@
 </head>
 
 <body>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand" href="#">📈Portfolio Data</a>
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="news.html">News</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://finviz.com/map.ashx">Map</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://finviz.com/screener.ashx">Screener</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="https://ibillionaire.me/billionaires/">Billionaires</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="https://fermin.netlify.com">📈Portfolio Data</a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://fermin.netlify.com">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://finviz.com/map.ashx">Map</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://finviz.com/screener.ashx">Screener</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://ibillionaire.me/billionaires/">Billionaires</a>
+                </li>
+            </ul>
+            <form action="stock.html" target="_blank" method="get" class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" name="stock" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
     <div class="container">
+
+        <div class="row" id="indexes">
+            <div class="index col-lg-3 col-md-3">
+                <h6>DJI</h6>
+                <p id="dji"></p>
+            </div>
+            <div class="index col-lg-3 col-md-3">
+                <h6>S&P500</h6>
+                <p id="sp500"></p>
+            </div>
+            <div class="index col-lg-3 col-md-3">
+                <h6>NASDAQ</h6>
+                <p id="NASDAQ"></p>
+            </div>
+            <div class="index col-lg-3 col-md-3">
+                <h6>Merval</h6>
+                <p id="imv"></p>
+            </div>
+        </div>
         <h1><a style="text-decoration: none;" target="_blank" href="https://docs.google.com/spreadsheets/d/1kJQ3SRnx2Xv7nmKQi_KMfIBXZUxWFiUataqF_UKuKgQ/edit#gid=0">📈</a> Portfolio Data </h1>
 
         <table id='results-table' class="table">
@@ -65,7 +84,5 @@
 </body>
 
 <script src="js/index.js"></script>
-
-</body>
 
 </html>
