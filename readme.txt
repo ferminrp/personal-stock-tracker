@@ -1,1 +1,1 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/ferminrp/pen/MzNXzd.
+A simple personal stock tracker for my ibillionaire.com portfolio. Plus some extra tools to search and analyze stocks.
